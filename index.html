@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/button.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="left">
+      <div class="logo">
+        <img src="./images/logo.png" alt="logo" />
+        SIGN UP
+      </div>
+      <div class="credit">
+        <p>
+          Photo by
+          <a href="https://unsplash.com/@reythh" class="link">Andrei Stan</a> on
+          <a href="https://unsplash.com/" class="link">Unsplash</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="dummy-text">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up <em>now</em> to get started.</p>
+        <p class="remote-text">You <em>know</em> you want to.</p>
+      </div>
+
+      <div class="form">
+        <form action="#">
+          <p>Let's do this!</p>
+          <div class="form-input">
+            <div class="input">
+              <label for="first-name">First Name</label>
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                minlength="3"
+                maxlength="9"
+              />
+            </div>
+            <div class="input">
+              <label for="last-name">Last Name</label>
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                minlength="3"
+                maxlength="9"
+              />
+            </div>
+            <div class="input">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div class="input">
+              <label for="phone-number">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                placeholder="951-393-2863"
+                required
+              />
+            </div>
+            <div class="input">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" required />
+            </div>
+            <div class="input">
+              <label for="password">Confirm Password</label>
+              <input
+                type="password"
+                name="confirm-password"
+                id="confirm-password"
+                required
+              />
+            </div>
+          </div>
+
+          <button class="btn" role="button">Create Account</button>
+        </form>
+      </div>
+
+      <div class="login">
+        <p>Already have an account? <a href="#" class="link">Log In</a></p>
+      </div>
+    </div>
+  </body>
+</html>
