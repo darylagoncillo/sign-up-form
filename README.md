@@ -3,7 +3,7 @@
 Sign Up page with form validation created with HTML & CSS
 
 ##
-[Live Demo 👈](LINK HERE)
+[Live Demo 👈](https://darylagoncillo.github.io/sign-up-form/)
 
 ## Authors
 
