@@ -93,6 +93,8 @@ label {
   grid-template-columns: 1fr 1fr; /* creates 2 columns */
   min-width: 400px;
   max-width: 440px;
+  min-height: 300px;
+  max-height: 400px;
   grid-gap: 40px; /* creates a gap between the columns and rows */
   padding-bottom: 24px;
   align-content: center;
