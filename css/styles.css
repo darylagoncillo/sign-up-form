@@ -84,7 +84,8 @@ label {
 
 .input input {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
+  margin-top: 10px;
 }
 
 .form-input {
@@ -92,8 +93,10 @@ label {
   grid-template-columns: 1fr 1fr; /* creates 2 columns */
   min-width: 400px;
   max-width: 440px;
-  gap: 40px; /* creates a gap between the columns and rows */
+  grid-gap: 40px; /* creates a gap between the columns and rows */
   padding-bottom: 24px;
+  align-content: center;
+  height: 35vh;
 }
 
 .login {
