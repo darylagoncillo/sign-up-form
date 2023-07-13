@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap');
 
+*, ::before, ::after {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   background-color: rgb(18, 18, 18);
   color: whitesmoke;
@@ -51,7 +56,7 @@ body {
   padding: 50px;
   float: right;
   position: absolute;
-  left: 40%;
+  left: 45%;
   font-family: "Raleway", sans-serif;
   z-index: 2; /* Add a higher z-index value */
 }
@@ -68,46 +73,29 @@ body {
 }
 
 .form p {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   padding: 20px 0px;
 }
 
-.form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 label {
-  padding-bottom: 5px;
   text-transform: uppercase;
 }
 
-.input {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 5px;
-}
-
 .input input {
-  padding: 5px;
   width: 100%;
-  box-sizing: border-box;
+  padding: 10px;
 }
 
 .form-input {
   display: grid; /* to use css-grid */
   grid-template-columns: 1fr 1fr; /* creates 2 columns */
   min-width: 400px;
-  max-width: 550px;
-  gap: 30px; /* creates a gap between the columns and rows */
-  align-items: center;
+  max-width: 440px;
+  gap: 40px; /* creates a gap between the columns and rows */
   padding-bottom: 24px;
 }
 
 .login {
-  padding: 25px 0px;
+  padding: 30px 0px;
 }
